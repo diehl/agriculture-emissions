@@ -34,7 +34,7 @@ Tier 1 estimation provides a baseline estimation technique with the minimum data
 
 **Tier 1 Data Requirements By Emissions Subdomain**
 
-[*Enteric Fermentation*](V4_10_Ch10_Livestock.pdf)
+[*Enteric Fermentation*](V4_10_Ch10_Livestock.pdf#page=24)
 
 * Average annual livestock population sizes by animal category
 
