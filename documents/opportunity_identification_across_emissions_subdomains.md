@@ -53,4 +53,4 @@ Tier 1 estimation provides a baseline estimation technique with the minimum data
 
 For which subdomains is Tier 1 estimation considered good practice?
 
-[*Enteric Fermentation*](file://V4_10_Ch10_Livestock.pdf#page=24)
+[*Enteric Fermentation*](file:///V4_10_Ch10_Livestock.pdf#page=24)
