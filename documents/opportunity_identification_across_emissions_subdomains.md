@@ -26,24 +26,16 @@ The FAOSTAT emissions estimates are computed by following the [Tier 1 IPCC 2006 
 
 **Tier 1 versus Tier 2/3 Estimation**
 
-Tier 1 estimation provides a baseline estimation technique with the minimum data requirements necessary to generate emissions estimates. When more detailed data is available to support Tier 2/3 estimation, particularly in circumstances where the emissions subdomain is a *key category* in the total emissions profile, more refined estimation is considered *good practice*. Therefore examining whether satellite remote sensing offers a pathway to meaningfully advance Tier 1 estimation should be viewed as only a first step in the overall assessment.
+Tier 1 estimation provides a baseline estimation technique with the minimum data requirements necessary to generate emissions estimates. When more detailed data is available to support Tier 2/3 estimation, particularly in circumstances where the emissions subdomain is a *key category* in the total emissions profile, more refined estimation is often considered *good practice*. Therefore examining whether satellite remote sensing offers a pathway to meaningfully advance Tier 1 estimation should be viewed as only a first step in the overall assessment.
 
-**Tier 1 Data Requirements By Emissions Subdomain**
+**Tier 1 Baseline Requirements and Estimation Sufficiency**
 
-[*Enteric Fermentation*](V4_10_Ch10_Livestock.pdf#page=24)
+| Emissions Subdomain and Type                                 | Tier 1 Data Requirements                                     | Tier 1 Sufficiency                                           | Uncertainty Assessment Discussion        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------- |
+| [Enteric Fermentation - CH4](V4_10_Ch10_Livestock.pdf#page=24) | - [Average annual livestock population sizes by animal category](V4_10_Ch10_Livestock.pdf#page=26) | If Tier 2/3 estimation is possible, [it should be pursued](V4_10_Ch10_Livestock.pdf#page=25), particularly if enteric fermentation is a key category | [Link](V4_10_Ch10_Livestock.pdf#page=33) |
+| [Manure Management - CH4](V4_10_Ch10_Livestock.pdf#page=35)  | - [Average annual livestock population sizes by animal category](V4_10_Ch10_Livestock.pdf#page=35)<br/>- [Average annual temperate for each region where manure is managed](V4_10_Ch10_Livestock.pdf#page=35) | [Every effort should be made to use the Tier 2 method](V4_10_Ch10_Livestock.pdf#page=35), including calculating emissions factors using country-specific information | [Link](V4_10_Ch10_Livestock.pdf#page=48) |
+| [Manure Management - N2O](V4_10_Ch10_Livestock.pdf#page=52)  | - Manure management systems employed<br/>- Average annual livestock population sizes subject to each type of manure management system |                                                              |                                          |
+| Manure Left on Pasture -                                     |                                                              |                                                              |                                          |
+| Rice Cultivation -                                           |                                                              |                                                              |                                          |
+| Synthetic Fertilizers -                                      |                                                              |                                                              |                                          |
 
-+ Average annual livestock population sizes by animal category
-
-*Manure Left on Pasture*
-
-*Synthetic Fertilizers*
-
-*Rice Cultivation*
-
-*Manure Management*
-+ Average annual livestock population sizes by animal category
-+ Manure management systems employed
-+ Average annual livestock population sizes subject to each type of manure management system
-+ Average annual temperature in the region
-
-For which subdomains is Tier 1 estimation considered good practice?
