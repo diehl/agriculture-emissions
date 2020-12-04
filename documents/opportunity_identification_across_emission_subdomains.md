@@ -43,22 +43,22 @@ Tier 1 estimation provides a baseline estimation technique with the minimum data
 
 In order to highlight the opportunities for satellite remote sensing to satisfy data collection requirements for estimation protocols such as those set forth by the IPCC, we need to first define the foundational tasks. Using the Tier 1 IPCC estimation protocol as a reference, the following tasks are evident.
 
-+ *Emission Source Localization* - Where are the facilities or landscapes (source locations) that contribute to emissions in one or more subdomains?
++ *Emission Source Localization and Characterization* - Where are the facilities or landscapes (source locations) that contribute to emissions in one or more subdomains? What environmental chacteristics of the source location impact the rate(s) of emissions?
 + *Salient Activity Identification and Characterization* - What activities are occurring at each source location that modulate the rate(s) of emissions? What activity characteristics are observable?
 + *Emission Process Modeling* - What modeling procedure is utilized to infer the types and magnitudes of emissions from the source locations based on the observed activity characteristics?
 
-Satellite remote sensing has the potential to address *emission source localization* and *salient activity identification / characterization*. While the exact definition of each of these tasks is dictated by the emission process modeling approach, we can leverage the Tier 1 IPCC protocol to begin enumerating source locations and activities of interest.
+Satellite remote sensing has the potential to address *emission source localization / characterization* and *salient activity identification / characterization*. While the exact definition of each of these tasks is dictated by the emission process modeling approach, we can leverage the Tier 1 IPCC protocol to begin enumerating source locations and activities of interest.
 
-| Emission Subdomain           | Emission Type | Source Location           | Salient Activities               | Activity Characteristics |
-| ---------------------------- | ------------- | ------------------------- | -------------------------------- | ------------------------ |
-| Enteric Fermentation         | CH4           | Animal Feeding Operations | Feeding                          | Animal Type(s)           |
-| Enteric Fermentation         | CH4           | Pastureland / Rangeland   | Grazing                          | Animal Type(s)           |
-| Manure Left on Pasture       | N2O           | Pastureland / Rangeland   | Grazing                          | Animal Type(s)           |
-| Synthetic Fertilizers        | N2O           | Farmland                  | Synthetic Fertilizer Application | Volume Applied           |
-| Rice Cultivation             | CH4           | Farmland                  | Rice Cultivation                 |                          |
-| Manure Management            | CH4, N2O      | Animal Feeding Operations |                                  |                          |
-| Burning of Savannas          | CH4, N2O      | Savannas                  | Burning Landcover                |                          |
-| Crop Residues                | N2O           | Farmland                  | Tillage                          |                          |
-| Manure Applied to Soils      | N2O           | Farmland                  | Manure Application               | Volume Applied           |
-| Cultivation of Organic Soils | N2O           | Farmland                  |                                  |                          |
-| Burning of Crop Residues     | CH4, N2O      | Farmland                  | Burning Landcover                |                          |
+| Emission Subdomain           | Emission Type | Source Location           | Environmental Characteristics                             | Salient Activities                              | Activity Characteristics                                     |
+| ---------------------------- | ------------- | ------------------------- | --------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------ |
+| *Enteric Fermentation*       | CH4           | Animal Feeding Operations |                                                           | Feeding                                         | Animal Type(s),<br/>Animal Type Population Size(s)           |
+| *Enteric Fermentation*       | CH4           | Pastureland / Rangeland   |                                                           | Grazing                                         | Animal Type(s),<br/>Animal Type Population Size(s)           |
+| *Manure Left on Pasture*     | N2O           | Pastureland / Rangeland   | Leaching / Runoff Subregions                              | Grazing                                         | Animal Type(s), <br/>Animal Type Population Size(s) By Subregion |
+| *Synthetic Fertilizers*      | N2O           | Farmland                  | Leaching / Runoff Subregions,<br/>Flooded Rice Subregions | Synthetic Fertilizer Application                | Volume Applied                                               |
+| *Rice Cultivation*           | CH4           | Farmland                  | Water Regimes (e.g. Irrigated / Rainfed / Upland)         | Rice Cultivation,<br/>Rice Cropping Practices   | Cultivation Periods                                          |
+| *Manure Management*          | CH4, N2O      | Animal Feeding Operations | Temperature                                               | Feeding,<br/>Manure Management Systems Employed | Animal Type(s),<br/>Animal Type Population Size(s)           |
+| Burning of Savannas          | CH4, N2O      | Savannas                  |                                                           | Burning Landcover                               |                                                              |
+| Crop Residues                | N2O           | Farmland                  |                                                           | Crop Cultivation, Tillage                       | Crop Type,<br/>Harvest Type                                  |
+| Manure Applied to Soils      | N2O           | Farmland                  |                                                           | Manure Application                              | Volume Applied                                               |
+| Cultivation of Organic Soils | N2O           | Farmland                  |                                                           |                                                 |                                                              |
+| Burning of Crop Residues     | CH4, N2O      | Farmland                  |                                                           | Burning Landcover                               |                                                              |
