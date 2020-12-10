@@ -49,14 +49,18 @@ In order to highlight the opportunities for satellite remote sensing to satisfy 
 
 Satellite remote sensing has the potential to address *emission source localization / characterization* and *salient activity identification / characterization*. While the exact definition of each of these tasks is dictated by the emission process modeling approach, we can leverage the Tier 1+ IPCC protocols to begin enumerating source locations and activities of interest. The following should not be considered exhaustive as there are a number of factors included in Tier 2/3 protocols that would be extremely difficult or impossible to infer from satellite observation. 
 
-| Emission Subdomain       | Emission Type | Source Location            | Environmental Characteristics                             | Salient Activities                                           | Activity Characteristics                                     |
-| ------------------------ | ------------- | -------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| *Enteric Fermentation*   | CH4           | Animal Feeding Operations  | Temperature                                               | Feeding                                                      | [Livestock Categories](V4_10_Ch10_Livestock.pdf#page=11),<br/>Population Size by Subcategory (Category + Management Practices),<br/>[Feed Intake by Subcategory](V4_10_Ch10_Livestock.pdf#page=12) |
-| *Enteric Fermentation*   | CH4           | Pastureland,<br/>Rangeland | Temperature                                               | Grazing                                                      | [Livestock Categories](V4_10_Ch10_Livestock.pdf#page=11),<br/>Population Size by Subcategory (Category + Management Practices),<br/>[Feed Intake by Subcategory](V4_10_Ch10_Livestock.pdf#page=12) |
-| *Manure Left on Pasture* | N2O           | Pastureland,<br/>Rangeland | Leaching / Runoff Subregions                              | Grazing                                                      | [Livestock Categories](V4_10_Ch10_Livestock.pdf#page=11), <br/>Population Size By Subcategory (Category, Subregion, and Management Practices) |
-| *Synthetic Fertilizers*  | N2O           | Farmland                   | Leaching / Runoff Subregions,<br/>Flooded Rice Subregions | Synthetic Fertilizer Application                             | Volume of Fertilizer Applied                                 |
-| *Rice Cultivation*       | CH4           | Farmland                   | Water Regimes (e.g. Irrigated / Rainfed / Upland)         | Rice Cultivation,<br/>Rice Cropping Practices                | Cultivation Periods                                          |
-| *Manure Management*      | CH4, N2O      | Animal Feeding Operations  | Temperature                                               | Feeding,<br/>[Manure Management](V4_10_Ch10_Livestock.pdf#page=49) | [Livestock Categories](V4_10_Ch10_Livestock.pdf#page=11),<br/>Population Size by Subcategory (Category and Management Practices) |
+| Emission Subdomain       | Emission Type | Source Location              | Environmental Characteristics                             | Salient Activities                                           | Activity Characteristics                                     |
+| ------------------------ | ------------- | ---------------------------- | --------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| *Enteric Fermentation*   | CH4           | Animal Feeding Operations    | Temperature                                               | Feeding                                                      | [Livestock Categories](V4_10_Ch10_Livestock.pdf#page=11),<br/>Population Size by Subcategory (Category + Management Practices),<br/>[Feed Intake by Subcategory](V4_10_Ch10_Livestock.pdf#page=12) |
+| *Enteric Fermentation*   | CH4           | Pastureland¹,<br/>Rangeland² | Temperature                                               | Grazing                                                      | [Livestock Categories](V4_10_Ch10_Livestock.pdf#page=11),<br/>Population Size by Subcategory (Category + Management Practices),<br/>[Feed Intake by Subcategory](V4_10_Ch10_Livestock.pdf#page=12) |
+| *Manure Left on Pasture* | N2O           | Pastureland¹,<br/>Rangeland² | Leaching / Runoff Subregions                              | Grazing                                                      | [Livestock Categories](V4_10_Ch10_Livestock.pdf#page=11), <br/>Population Size By Subcategory (Category, Subregion, and Management Practices) |
+| *Synthetic Fertilizers*  | N2O           | Farmland                     | Leaching / Runoff Subregions,<br/>Flooded Rice Subregions | Synthetic Fertilizer Application                             | Volume of Fertilizer Applied                                 |
+| *Rice Cultivation*       | CH4           | Farmland                     | Water Regimes (e.g. Irrigated / Rainfed / Upland)         | Rice Cultivation,<br/>Rice Cropping Practices                | Cultivation Periods                                          |
+| *Manure Management*      | CH4, N2O      | Animal Feeding Operations    | Temperature                                               | Feeding,<br/>[Manure Management](V4_10_Ch10_Livestock.pdf#page=49) | [Livestock Categories](V4_10_Ch10_Livestock.pdf#page=11),<br/>Population Size by Subcategory (Category and Management Practices) |
+
+¹ Pastureland is grazing land planted with introduced or domesticated native forage species. [Pastureland is intensively managed](https://www.epa.gov/agriculture/agricultural-pasture-rangeland-and-grazing) using agronomy practices and control of livestock.
+
+² Rangeland is an [area of native vegetation dominated by grasses](	r1780.pdf#page=1) that is managed through manipulation of livestock grazing and/or prescribed fire. 
 
 **Potential Remote Sensing Opportunities** - *Direct Observation* or *Inference from Observables*
 
@@ -64,13 +68,17 @@ Satellite remote sensing has the potential to address *emission source localizat
 
 *Animal Feeding Operation Population Size* - Inference from Observables - High Confidence Opportunity - Dimensions of animal feeding operation buildings offer constraints on the number of livestock under management
 
+*Rice Field Identification* - Direct Observation - High Confidence Opportunity - Existing studies have demonstrated the potential to leverage multispectral and synthetic aperture radar (SAR) imagery for identifying rice fields
+
+*Rice Cultivation Period Estimation* - Direct Observation - High Confidence Opportunity - Time series of spectral indices such as *normalized difference vegetative index (NDVI)* and *leaf area index (LAI)* provide the basis for estimating the length of the cultivation period. Recent research demonstrating the ability to predict spectral indices from SAR points to the additional opportunity to estimate cultivation periods reliably even in the presence of cloud cover. 
+
 *Animal Feeding Operation Status* - Direct Observation - Medium Confidence Opportunity - High resolution imagery at a high temporal cadence may provide sufficient evidence to discern whether or not an animal feeding operation is currently active. As an example, observed changes in the configuration of parked vehicles might be due to the daily arrival of employees at varying times.
 
-*Pastureland Identification and Characterization* - Direct Observation - Medium Confidence Opportunity - 
+*Pastureland Identification and Characterization* - Direct Observation - Medium Confidence Opportunity - Pastureland identification is likely possible by detecting the active management of forage species over time. Determining whether pastureland is actively grazed is probably more difficult and highly dependent on the grazing strategy. Rotational grazing systems, which employ paddocks to graze livestock in a controlled manner across the landscape, should provide the most obvious signature for detection. Time series polarimetric or interferometric SAR might very well highlight trampling and grazing impact in a well-defined region that can be automatically detected. 
 
 *Manure Management Systems* - Direct Observation - Low Confidence Opportunity - A small number of [manure management systems](V4_10_Ch10_Livestock.pdf#page=49) are directly observable from satellite remote sensing. Yet it is not immediately clear whether information on the occurrence of these systems would materially impact overall emissions estimates. 
 
-*Rangeland Identification and Characterization* - Direct Observation - Low Confidence Opportunity - 
+*Rangeland Identification and Characterization* - Direct Observation - Low Confidence Opportunity - In contrast to pastureland, rangeland is a natural ecosystem with minimal management. If the main management activity is grazing, the detection of active rangeland may be very difficult and will be highly dependent on the grazing strategy employed. 
 
 **Outstanding Questions for Investigation**
 
@@ -78,18 +86,16 @@ Satellite remote sensing has the potential to address *emission source localizat
 
   + For AFOs with visible manure lagoons, can changes in the surface area of the lagoon be leveraged as an indicator?
 
-+ Can Climate TRACE create meaningful systems change by tracking activities at or near animal feeding operations that pose a public health risk to surrounding communities?
++ Can Climate TRACE create meaningful systems change by tracking activities at or near animal feeding operations that [pose a public health risk to surrounding communities](https://www.apha.org/policies-and-advocacy/public-health-policy-statements/policy-database/2020/01/13/precautionary-moratorium-on-new-and-expanding-concentrated-animal-feeding-operations)?
 
   + Climate TRACE could provide AFO localization and activity tracking services that support not only GHG emissions estimation but also environmental regulation enforcement efforts
   + A service detecting routine applications of livestock manure from AFOs on nearby farmland, as an example, would highlight the widespread nature of this practice and the activities exceeding the bounds of permitted application
 
-Are there opportunities to track interventions at facilities meant to reduce emissions? Verification of intervention claims
++ What is the range of opportunity to track pledged interventions aimed at emissions reductions?
 
-Synthetic fertilizer supply chain - observables? Fertilizer plants
+  + What feedback loops can be constructed with low-cost verification of those claims?
 
-**References**
-
-
++ Can meaningful estimates of synthetic fertilizer usage be derived through satellite monitoring of key facilities in the synthetic fertilizer supply chain?
 
 
 
