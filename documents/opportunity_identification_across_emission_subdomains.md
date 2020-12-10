@@ -74,7 +74,7 @@ Satellite remote sensing has the potential to address *emission source localizat
 
 *Animal Feeding Operation Status* - Direct Observation - Medium Confidence Opportunity - High resolution imagery at a high temporal cadence may provide sufficient evidence to discern whether or not an animal feeding operation is currently active. As an example, observed changes in the configuration of parked vehicles might be due to the daily arrival of employees at varying times.
 
-*Pastureland Identification and Characterization* - Direct Observation - Medium Confidence Opportunity - Pastureland identification is likely possible by detecting the active management of forage species over time. Determining whether pastureland is actively grazed is probably more difficult and highly dependent on the grazing strategy. Rotational grazing systems, which employ paddocks to graze livestock in a controlled manner across the landscape, should provide the most obvious signature for detection. Time series polarimetric or interferometric SAR might very well highlight trampling and grazing impact in a well-defined region that can be automatically detected. 
+*Pastureland Identification and Characterization* - Direct Observation - Medium Confidence Opportunity - Pastureland identification is likely possible by detecting the active management of forage species over time. Determining whether pastureland is actively grazed is probably more difficult and highly dependent on the grazing strategy. Rotational grazing systems, which employ paddocks to graze livestock in a controlled manner across the landscape, should provide the most obvious signature for detection. Time series [polarimetric](https://nisar.jpl.nasa.gov/mission/get-to-know-sar/polarimetry/) and [interferometric](https://nisar.jpl.nasa.gov/mission/get-to-know-sar/interferometry/) SAR might very well highlight trampling and grazing impact in a well-defined region that can be automatically detected. 
 
 *Manure Management Systems* - Direct Observation - Low Confidence Opportunity - A small number of [manure management systems](V4_10_Ch10_Livestock.pdf#page=49) are directly observable from satellite remote sensing. Yet it is not immediately clear whether information on the occurrence of these systems would materially impact overall emissions estimates. 
 
@@ -101,7 +101,7 @@ Satellite remote sensing has the potential to address *emission source localizat
 
 ["Farming Our Way Out of the Climate Crisis - A Drawdown Primer,"](DrawdownPrimer_FoodAgLandUse_Dec2020_01.pdf) *Project Drawdown*, December 2020
 
-["A Comprehensive Quantification of Global Nitrous Oxide Sources and Sinks,"](A comprehensive quantification of global nitrous oxide sources and sinks - 2020.pdf) *Nature*, October 2020
+["A Comprehensive Quantification of Global Nitrous Oxide Sources and Sinks,"](global-nitrous-oxide-sources-and-sinks-2020.pdf) *Nature*, October 2020
 
 [*Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2018*](https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2018), U.S. Environmental Protection Agency, 2020
 
