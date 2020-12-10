@@ -97,7 +97,13 @@ Satellite remote sensing has the potential to address *emission source localizat
 
 + Can meaningful estimates of synthetic fertilizer usage be derived through satellite monitoring of key facilities in the synthetic fertilizer supply chain?
 
+**Additional References**
 
+["Farming Our Way Out of the Climate Crisis - A Drawdown Primer,"](DrawdownPrimer_FoodAgLandUse_Dec2020_01.pdf) *Project Drawdown*, December 2020
 
+["A Comprehensive Quantification of Global Nitrous Oxide Sources and Sinks,"](A comprehensive quantification of global nitrous oxide sources and sinks - 2020.pdf) *Nature*, October 2020
 
+[*Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2018*](https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2018), U.S. Environmental Protection Agency, 2020
+
++ [Chapter 5: Agriculture](us-ghg-inventory-2020-chapter-5-agriculture.pdf)
 
