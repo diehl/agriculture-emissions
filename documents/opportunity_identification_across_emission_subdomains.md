@@ -22,7 +22,7 @@ The following is a ranked list of emission subdomains in descending order of CO2
 + Cultivation of Organic Soils
 + Burning of Crop Residues
 
-The FAOSTAT emissions estimates are computed by following the [Tier 1 IPCC 2006 guidelines](https://www.ipcc-nggip.iges.or.jp/public/2006gl/vol4.html) for national greenhouse gas inventories and leveraging the requisite national estimates needed to execute these estimation protocols. To scope our investigation, we will focus on the top five emission subdomains highlighted above in bold that cover 84% of global agricultural emissions according to the Tier 1 estimates for 2017.
+The FAOSTAT emissions estimates are computed by following the [Tier 1 IPCC 2006 guidelines](https://www.ipcc-nggip.iges.or.jp/public/2006gl/vol4.html) for national greenhouse gas inventories and leveraging the requisite national estimates needed to execute these estimation protocols. To scope our investigation, we will focus on the top five emission subdomains highlighted above in bold that cover 84% of global agricultural emissions according to the Tier 1 estimates for 2017. It is worth noting that there is significant uncertainty in the  Tier 1 estimates that is not captured in any manner within the FAOSTAT emissions dataset. For our purposes in this document, that is not of concern. At the same time, one should not ascribe high confidence to the above rank order. 
 
 **Tier 1 versus Tier 2/3 Estimation**
 
@@ -106,4 +106,6 @@ Satellite remote sensing has the potential to address *emission source localizat
 [*Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2018*](https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2018), U.S. Environmental Protection Agency, 2020
 
 + [Chapter 5: Agriculture](us-ghg-inventory-2020-chapter-5-agriculture.pdf)
+
+[*2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories*](https://www.ipcc.ch/report/2019-refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories/), IPCC, 2019
 
